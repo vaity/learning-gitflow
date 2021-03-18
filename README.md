@@ -39,6 +39,11 @@ To delete branch use `git branch -D existing_branch_name`
 ## Commiting (Saving changes) to git
 * Once new files or changes added to git it can be commited to git branch using command `git commit` & option `-m` for adding commit message. `git commit -m 'Message about changes that are to be commited'`
 
+## Push branch
+* Once required commits are done, branch can be pushed to it's remote repository.
+* Know about remote repository use command `git remote -v` , it will display added remote repositories.
+* To push branch use `git push origin <name_of_branch>`
+
 ### Pull Request (PR)
 - Title should be same as Issue title, also add issue number before title. 
   - For example: if issue title is "Setup initial design" `vt-3 Setup initial design`.
