@@ -21,6 +21,24 @@ master
 - For bug - `fix-vt-issue-number`
   - For example: if issue number is 4, `fix-vt-4`
 
+## Check Current/Active Branch
+To know active branch use `git branch`
+
+## Creating Branch OR Checkout/Changing Branch
+* New branch can be created from an **active** branch, for this `git branch` OR `git checkout` command can be used.
+* Create a new branch: `git branch new_branch_name` , here branch with name `new_branch_name` will be created from active branch & active branch will remain same.
+* Create a new branch & checkout (change) branch: `git checkout -b new_branch_name` , here branch with name `new_branch_name`  will be created from active branch & branch will changed to `new_branch_name` , now `new_branch_name` is an active branch. 
+
+## Deleting Branch
+To delete branch use `git branch -D existing_branch_name`
+
+## Track new files / changed files to git
+* For individual file use `git add <filename>`
+* For all files / folders use `git add .`
+
+## Commiting (Saving changes) to git
+* Once new files or changes added to git it can be commited to git branch using command `git commit` & option `-m` for adding commit message. `git commit -m 'Message about changes that are to be commited'`
+
 ### Pull Request (PR)
 - Title should be same as Issue title, also add issue number before title. 
   - For example: if issue title is "Setup initial design" `vt-3 Setup initial design`.
