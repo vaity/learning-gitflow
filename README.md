@@ -1,4 +1,4 @@
-# Learning Gitflow 2021
+# Learning Gitflow
 
 ## How to get started?
 
